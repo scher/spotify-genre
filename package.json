@@ -1,0 +1,31 @@
+{
+  "name": "spotify-genre",
+  "version": "1.0.0",
+  "description": "detects your music genre",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fetch.js | ./node_modules/.bin/bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scher/spotify-genre.git"
+  },
+  "keywords": [
+    "nodejs",
+    "vuejs",
+    "spotify",
+    "music"
+  ],
+  "author": "Alexander Pronin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scher/spotify-genre/issues"
+  },
+  "homepage": "https://github.com/scher/spotify-genre#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
